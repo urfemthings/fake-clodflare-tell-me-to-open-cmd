@@ -7,6 +7,8 @@ lowkey I wanna download some file and I got autoreddect and got some "fake" clod
 
 the web similar look like this: (I forgot to screenshot but similar look like this)
 
+https://github.com/urfemthings/fake-clodflare-tell-me-to-open-cmd/blob/main/IMG_20261107_212536.png
+
 
 characteristic :can't minimize,ordered to open cmd 
 
