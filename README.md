@@ -30,7 +30,7 @@ File: q6ytyo0.exe
 ASN: GCS_SER-NET
 
 # infrastructure 
-RDAP:
+RDAP: https://www.virustotal.com/gui/ip-address/185.138.88.151/details
 
 -Network Name: GCS_SER-NET
 Address Range: 185.138.88.0 - 185.138.88.255
