@@ -45,6 +45,8 @@ last changed: 2025-08-11
 
 -i try scan in virustotal and got 4 file detected that speaking /connecting to hacker server
 
+link result: https://www.virustotal.com/gui/ip-address/185.138.88.151/relations
+
 # mitigation 
 
 -never open cmd when download some game 
