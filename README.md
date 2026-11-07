@@ -6,7 +6,7 @@ lowkey I wanna download some file and I got autoreddect and got some "fake" clod
 
 # inicial access
 
-the web similar look like this (I forgot to screenshot but similar look like this)
+the web similar look like this: (I forgot to screenshot but similar look like this)
 
 
 characteristic :can't minimize,ordered to open cmd 
@@ -31,18 +31,26 @@ ASN: GCS_SER-NET
 
 # infrastructure 
 RDAP:
+
 -Network Name: GCS_SER-NET
 Address Range: 185.138.88.0 - 185.138.88.255
 CIDR: 185.138.88.0/24
+
 -Parent Network: 185.138.88.0 - 185.138.91.255
+
 -registration: 2025-08-11
 last changed: 2025-08-11
+
 -characteristic infrastructure: Create a new IP -> used to spread malware for 2-3 months -> discovered -> delete -> create a new one.
 
 -i try scan in virustotal and got 4 file detected that speaking /connecting to hacker server
 
 # mitigation 
+
 -never open cmd when download some game 
+
 -cloudflare never tell YOU to open cmd
+
 -download in official game
+
 -if can escape maximaze try f11 or alt + f4
