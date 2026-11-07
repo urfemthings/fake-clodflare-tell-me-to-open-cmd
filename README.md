@@ -53,6 +53,6 @@ link result: https://www.virustotal.com/gui/ip-address/185.138.88.151/relations
 
 -cloudflare never tell YOU to open cmd
 
--download in official game
+-download in official web
 
 -if cant escape maximaze try f11 or alt + f4
