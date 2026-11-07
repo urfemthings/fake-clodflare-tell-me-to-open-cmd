@@ -55,4 +55,4 @@ link result: https://www.virustotal.com/gui/ip-address/185.138.88.151/relations
 
 -download in official game
 
--if can escape maximaze try f11 or alt + f4
+-if cant escape maximaze try f11 or alt + f4
