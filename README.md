@@ -18,4 +18,14 @@ I try to cntrl + v and got this:
 
 Decode IP: 3112851607 -> 185.138.88.151
 flow attacker: trungle.txt = loader, Z595.ps1 = stealer
+total 4 file 
+
+# IOCS 
+IP: 185.138.88.151
+URL: hxxp://185.138.88.151/438
+URL: hxxp://185.138.88.151/439
+File: trungle.txt
+File: Z595.ps1
+File: q6ytyo0.exe
+ASN: GCS_SER-NET
 
