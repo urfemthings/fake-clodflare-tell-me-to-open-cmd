@@ -6,8 +6,10 @@ lowkey I wanna download some file and I got autoreddect and got some "fake" clod
 
 # inicial access
 
-I try cntrl + v and got code like this :
+the web similar look like this (I forgot to screenshot but similar look like this)
 
 
 characteristic :can't minimize,ordered to open cmd 
+
+# 
 
