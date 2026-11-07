@@ -38,3 +38,5 @@ CIDR: 185.138.88.0/24
 -registration: 2025-08-11
 last changed: 2025-08-11
 -characteristic infrastructure: Create a new IP -> used to spread malware for 2-3 months -> discovered -> delete -> create a new one.
+
+-i try scan in virustotal and got 4 file detected that speaking /connecting to hacker server
