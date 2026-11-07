@@ -29,3 +29,12 @@ File: Z595.ps1
 File: q6ytyo0.exe
 ASN: GCS_SER-NET
 
+# infrastructure 
+RDAP:
+-Network Name: GCS_SER-NET
+Address Range: 185.138.88.0 - 185.138.88.255
+CIDR: 185.138.88.0/24
+-Parent Network: 185.138.88.0 - 185.138.91.255
+-registration: 2025-08-11
+last changed: 2025-08-11
+-characteristic infrastructure: Create a new IP -> used to spread malware for 2-3 months -> discovered -> delete -> create a new one.
