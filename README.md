@@ -40,3 +40,9 @@ last changed: 2025-08-11
 -characteristic infrastructure: Create a new IP -> used to spread malware for 2-3 months -> discovered -> delete -> create a new one.
 
 -i try scan in virustotal and got 4 file detected that speaking /connecting to hacker server
+
+# mitigation 
+-never open cmd when download some game 
+-cloudflare never tell YOU to open cmd
+-download in official game
+-if can escape maximaze try f11 or alt + f4
