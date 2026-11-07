@@ -1,5 +1,4 @@
-# title fake-clodflare-tell-me-to-open-cmd
-(re)
+# title fake-clodflare-tell-me-to-open-cmd (re)
 # summary
 
 lowkey I wanna download some file and I got autoreddect and got some "fake" clodflare
