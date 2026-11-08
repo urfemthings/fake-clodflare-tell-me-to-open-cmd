@@ -100,6 +100,7 @@ Defense Evasion (TA0005)	T1027, T1055	Obfuscated Files, Process Injection, Filel
 Discovery (TA0007)	T1033, T1069	System Owner/User Discovery, Permission Groups Discovery
 Command and Control	T1071	Komunikasi HTTP ke C2
 7. ALUR SERANGAN LENGKAP (KILL CHAIN)
+'''cmd
 [1] Korban mengunduh /438 (trungle.txt - 50 byte)
         |
         v
