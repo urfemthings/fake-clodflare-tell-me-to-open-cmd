@@ -71,3 +71,8 @@ When executed in a controlled sandbox environment, `Z595.ps1` triggers aggressiv
 - **Sigma Signatures:** Triggered multiple medium/high behavioral rules indicating unauthorized script execution loops and environment inspection.
 - **Network Telemetry:** Verified single upstream HTTP communication stream looping directly back to the infrastructure IP (`185.138.88.151`).
 
+## Mitigation & Defense
+User Awareness: Real services (like Cloudflare) never require opening command lines (CMD or PowerShell) to prove humanity.
+Endpoint Hardening: Restrict execution policies for PowerShell (Set-ExecutionPolicy) and monitor suspicious outbound curl or Invoke-WebRequest activities originating from temporary directories (%tmp%).
+Browser Safety: If trapped in a full-screen browser coercion loop, bypass via F11 or terminate the browser process through Task Manager (Alt + F4 / Process Kill).
+
