@@ -55,6 +55,19 @@ Communicating Files: 14+ distinct active samples interact with 185.138.88.151, p
 Freshness & TTL: First submitted to VirusTotal on November 7, 2026, confirming this is an active, freshly spun-up campaign.
 AV Evasion: Standard static scans yield very low initial detection ratios (1/61 to 0/61), relying entirely on behavioral heuristic monitoring for identification.
 
+## Chapter 4: Sandbox Behaviour & MITRE ATT&CK Mapping
 
-Chapter 4: Sandbox Behaviour & MITRE ATT&CK Mapping
-When executed in a controlled sandbox environment, Z595.ps1 triggers aggressive adversary behaviors mapped under the MITRE ATT&CK framework:
+When executed in a controlled sandbox environment, `Z595.ps1` triggers aggressive adversary behaviors mapped under the **MITRE ATT&CK** framework:
+
+| Tactics | Technique ID | Behavioral Details |
+| :--- | :--- | :--- |
+| **Execution** | T1059.001 / T1064 | Leverages native PowerShell interpreters to run encoded/obfuscated command sequences. |
+| **Privilege Escalation** | T1055 | Performs **Process Injection** into legitimate running system processes to elevate operational context. |
+| **Defense Evasion** | T1027 | Heavy **Obfuscation** of script contents into single-line strings to foil static code review and standard AV signatures. |
+| **Discovery** | T1033 / T1069 | System owner, user discovery, and permission group enumeration prior to harvesting sensitive user tokens. |
+| **Dropped Artifacts** | *Multiple* | Drops 11 secondary helper items during execution, including 1 PE_DLL and native COFF components for memory-only execution. |
+
+### Additional Behavioral Metrics:
+- **Sigma Signatures:** Triggered multiple medium/high behavioral rules indicating unauthorized script execution loops and environment inspection.
+- **Network Telemetry:** Verified single upstream HTTP communication stream looping directly back to the infrastructure IP (`185.138.88.151`).
+
