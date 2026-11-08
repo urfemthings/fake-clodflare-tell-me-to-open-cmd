@@ -88,7 +88,7 @@ Malware melakukan komunikasi ke C2 melalui HTTP biasa (bukan HTTPS) pada port 80
 
 ```text
 GET [http://185.138.88.151/yrjs/tctc.bba](http://185.138.88.151/yrjs/tctc.bba)
-TCP 185.138.88.151:80
+TCP 185.138.88.151:80)
 
 ## 6. MITRE ATT&CK MAPPING
 
