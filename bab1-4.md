@@ -41,8 +41,9 @@ Analisis statis dilakukan pada file `Z595.ps1`:
 File ini memiliki 1 baris super panjang tanpa pemisah baris (*line terminator*). Ini adalah ciri khas **Obfuscation**, yang bertujuan agar kode tidak dapat dibaca manusia dan sulit dideteksi oleh antivirus berbasis *signature*. Hal ini menjelaskan rendahnya tingkat deteksi (1/61).
 
 Perbandingan ukuran membuktikan struktur *multi-stage*:
-- Tahap 1 hanya 50 byte, berfungsi sebagai pemancing / loader kecil.
-- Tahap 2 sebesar 471 KB, berfungsi sebagai stealer utama yang berisi logika jahat.
+-Tahap 1: /438 (50 byte, trungle.txt) -> loader kecil
+-Tahap 2: /439 (471 KB, Z595.ps1) -> stealer utama
+-Tahap 3: /yrjs/tctc.bba -> file tambahan yang di-download sama Z595.ps1 pas udah jalan di sandbox
 
 ## 4. DYNAMIC / BEHAVIOUR ANALYSIS
 
