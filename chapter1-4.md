@@ -54,3 +54,7 @@ VirusTotal relations data correlates the core C2 infrastructure directly to acti
 Communicating Files: 14+ distinct active samples interact with 185.138.88.151, predominantly composed of obfuscated PowerShell stealers (Z595.ps1) and secondary dropped executables (q6ytyo0.exe).
 Freshness & TTL: First submitted to VirusTotal on November 7, 2026, confirming this is an active, freshly spun-up campaign.
 AV Evasion: Standard static scans yield very low initial detection ratios (1/61 to 0/61), relying entirely on behavioral heuristic monitoring for identification.
+
+
+Chapter 4: Sandbox Behaviour & MITRE ATT&CK Mapping
+When executed in a controlled sandbox environment, Z595.ps1 triggers aggressive adversary behaviors mapped under the MITRE ATT&CK framework:
