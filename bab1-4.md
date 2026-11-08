@@ -100,29 +100,43 @@ Defense Evasion (TA0005)	T1027, T1055	Obfuscated Files, Process Injection, Filel
 Discovery (TA0007)	T1033, T1069	System Owner/User Discovery, Permission Groups Discovery
 Command and Control	T1071	Komunikasi HTTP ke C2
 7. ALUR SERANGAN LENGKAP (KILL CHAIN)
-'''cmd
+
 [1] Korban mengunduh /438 (trungle.txt - 50 byte)
+
         |
         v
 [2] Loader mengunduh /439 (Z595.ps1 - 471 KB)
+
         |
         v
+
 [3] Z595.ps1 berjalan via PowerShell, ter-obfuscate
+
         |
         v
+
 [4] Menggunakan csc.exe (LOLBin) untuk compile C# di memory
+
         |
         v
+
 [5] Membuat file PE / DLL baru + Process Injection
+
         |
         v
+
 [6] Meng-enumerasi sistem (Defender, dotnet, nodejs, dll) + Buka 230+ file
+
         |
         v
+
 [7] Mengunduh /yrjs/tctc.bba + Menjalankan q6ytyo0.exe
+
         |
         v
+
 [8] Komunikasi ke C2 185.138.88.151:80 untuk exfiltrasi data
+
 8. KESIMPULAN
 
 Malware `Z595.ps1` adalah malware kelas menengah-atas yang menggunakan teknik modern untuk menghindari deteksi. Rendahnya deteksi antivirus (1/61) bukan karena file ini aman, melainkan karena teknik obfuscation dan fileless yang digunakan.
