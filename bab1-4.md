@@ -86,7 +86,7 @@ Pembukaan file Defender menunjukkan upaya pengecekan pertahanan (Defense Evasion
 
 Malware melakukan komunikasi ke C2 melalui HTTP biasa (bukan HTTPS) pada port 80:
 
-```text
+(```)text
 GET [http://185.138.88.151/yrjs/tctc.bba](http://185.138.88.151/yrjs/tctc.bba)
 TCP 185.138.88.151:80)
 
@@ -102,7 +102,7 @@ TCP 185.138.88.151:80)
 
 ## 7. ALUR SERANGAN LENGKAP (KILL CHAIN)
 
-```text
+(```)text
 [1] Korban mengunduh /438 (trungle.txt - 50 byte)
         |
         v
